@@ -7,3 +7,49 @@
 		font-style: #{$style}
 
 @import "_fonts.sass"
+@import "~bootstrap/scss/bootstrap.scss"
+@import '~normalize.css/normalize'
+
+.row
+	margin: 0
+
+.col
+	padding: 0
+
+body
+	display: flex
+	flex-direction: column
+	position: relative
+	min-height: 100vh 
+
+header 
+	height: 6.25rem
+	background-color: red
+
+.middle
+	display: flex
+	flex-direction: row
+	flex: 1 1 auto
+	max-width: 100%
+
+.content 
+	position: relative
+	
+.content__title
+	background-color: pink
+	height: 5%
+	
+	
+.content__frame
+	flex: 1 1 auto
+	min-height: 95%
+
+footer
+	background-color: green
+
+aside
+	display: flex
+	flex: 1 1 auto
+	position: relative
+	background-color: blue
+	min-height: 100%
